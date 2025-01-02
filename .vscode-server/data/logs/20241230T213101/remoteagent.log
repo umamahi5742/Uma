@@ -1,0 +1,22 @@
+2024-12-30 21:31:01.295 [info] 
+
+
+
+
+2024-12-30 21:31:01.305 [info] Extension host agent started.
+2024-12-30 21:31:01.491 [info] [127.0.0.1][ab93f72e][ManagementConnection] New connection established.
+2024-12-30 21:31:01.797 [info] [127.0.0.1][e7a94c53][ExtensionHostConnection] New connection established.
+2024-12-30 21:31:01.978 [info] [127.0.0.1][e7a94c53][ExtensionHostConnection] <23974> Launched Extension Host Process.
+2024-12-30 21:31:12.027 [error] [network] #1: https://main.vscode-cdn.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN main.vscode-cdn.net
+2024-12-30 21:31:23.353 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2024-12-30 21:31:36.367 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2024-12-30 22:04:22.100 [info] [127.0.0.1][ab93f72e][ManagementConnection] The client has reconnected.
+2024-12-30 22:04:22.104 [info] [127.0.0.1][e7a94c53][ExtensionHostConnection] The client has reconnected.
+2024-12-30 22:47:13.492 [info] [127.0.0.1][e7a94c53][ExtensionHostConnection] The client has reconnected.
+2024-12-30 22:47:13.494 [info] [127.0.0.1][ab93f72e][ManagementConnection] The client has reconnected.
+2024-12-31 10:16:24.323 [info] [127.0.0.1][ab93f72e][ManagementConnection] The client has reconnected.
+2024-12-31 10:16:32.684 [info] [127.0.0.1][e7a94c53][ExtensionHostConnection] The client has reconnected.
+2024-12-31 10:28:09.142 [info] [127.0.0.1][e7a94c53][ExtensionHostConnection] The client has reconnected.
+2024-12-31 10:28:09.323 [info] [127.0.0.1][ab93f72e][ManagementConnection] The client has reconnected.
+2024-12-31 11:00:23.084 [info] [127.0.0.1][e7a94c53][ExtensionHostConnection] The client has reconnected.
+2024-12-31 11:00:23.425 [info] [127.0.0.1][ab93f72e][ManagementConnection] The client has reconnected.

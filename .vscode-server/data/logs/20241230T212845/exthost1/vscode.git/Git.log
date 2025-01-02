@@ -1,0 +1,42 @@
+2024-12-30 21:28:48.195 [info] [main] Log level: Info
+2024-12-30 21:28:48.196 [info] [main] Validating found git in: "git"
+2024-12-30 21:28:48.196 [info] [main] Using git "2.34.1" from "git"
+2024-12-30 21:28:48.196 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-30 21:28:48.196 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-30 21:28:48.196 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-12-30 21:28:48.204 [info] [Model][openRepository] Opened repository: /home/mahesh/frappe-helpdesk/flaskBlog
+2024-12-30 21:28:48.212 [info] > git config --get commit.template [3ms]
+2024-12-30 21:28:48.221 [info] > git rev-parse --show-toplevel [0ms]
+2024-12-30 21:28:48.224 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-30 21:28:48.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [75ms]
+2024-12-30 21:28:48.291 [info] > git rev-parse --show-toplevel [64ms]
+2024-12-30 21:28:48.294 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mahesh/frappe-helpdesk/flaskBlog/.git/refs/remotes/origin/main'
+2024-12-30 21:28:48.313 [info] > git rev-parse --show-toplevel [17ms]
+2024-12-30 21:28:48.313 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2024-12-30 21:28:48.324 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-30 21:28:48.328 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-30 21:28:48.332 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-30 21:28:48.337 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-30 21:28:48.348 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-30 21:28:48.352 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-30 21:28:48.358 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-30 21:28:48.363 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-30 21:28:48.367 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-30 21:28:48.694 [info] > git status -z -uall [377ms]
+2024-12-30 21:28:48.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-12-30 21:28:48.710 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-12-30 21:28:48.714 [info] > git config --get commit.template [9ms]
+2024-12-30 21:28:48.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-12-30 21:28:48.723 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-12-30 21:28:48.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-12-30 21:28:48.727 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-12-30 21:28:48.731 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mahesh/frappe-helpdesk/flaskBlog/.git/refs/remotes/origin/main'
+2024-12-30 21:28:48.732 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-30 21:28:48.736 [info] > git diff --name-status -z --diff-filter=ADMR e4725315899523085f2e81b4eba9c827a8159e5e...refs/remotes/origin/main [7ms]
+2024-12-30 21:28:48.890 [info] > git status -z -uall [155ms]
+2024-12-30 21:28:48.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-30 21:28:48.898 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-12-30 21:28:48.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-12-30 21:28:49.148 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-30 21:28:51.602 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-30 21:28:53.666 [info] > git check-ignore -v -z --stdin [1ms]

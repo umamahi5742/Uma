@@ -1,0 +1,44 @@
+2024-12-31 16:30:01.664 [info] [main] Log level: Info
+2024-12-31 16:30:01.664 [info] [main] Validating found git in: "git"
+2024-12-31 16:30:01.664 [info] [main] Using git "2.34.1" from "git"
+2024-12-31 16:30:01.664 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-31 16:30:01.664 [info] > git rev-parse --show-toplevel [8ms]
+2024-12-31 16:30:01.664 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-12-31 16:30:01.664 [info] [Model][openRepository] Opened repository: /home/mahesh/frappe-helpdesk/flaskBlog
+2024-12-31 16:30:01.666 [info] > git config --get commit.template [3ms]
+2024-12-31 16:30:01.674 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-31 16:30:01.678 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-31 16:30:01.682 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-31 16:30:01.685 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-31 16:30:01.688 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-31 16:30:01.695 [info] > git rev-parse --show-toplevel [3ms]
+2024-12-31 16:30:01.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2024-12-31 16:30:01.763 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mahesh/frappe-helpdesk/flaskBlog/.git/refs/remotes/origin/main'
+2024-12-31 16:30:01.767 [info] > git rev-parse --show-toplevel [28ms]
+2024-12-31 16:30:01.773 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-12-31 16:30:01.783 [info] > git status -z -uall [6ms]
+2024-12-31 16:30:01.784 [info] > git rev-parse --show-toplevel [11ms]
+2024-12-31 16:30:01.785 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-12-31 16:30:01.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-31 16:30:01.818 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-12-31 16:30:01.822 [info] > git config --get commit.template [14ms]
+2024-12-31 16:30:01.822 [info] > git rev-parse --show-toplevel [17ms]
+2024-12-31 16:30:01.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-12-31 16:30:01.857 [info] > git merge-base refs/heads/main refs/remotes/origin/main [27ms]
+2024-12-31 16:30:01.859 [info] > git rev-parse --show-toplevel [34ms]
+2024-12-31 16:30:01.863 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-12-31 16:30:01.864 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-31 16:30:01.864 [info] > git diff --name-status -z --diff-filter=ADMR e4725315899523085f2e81b4eba9c827a8159e5e...refs/remotes/origin/main [5ms]
+2024-12-31 16:30:01.867 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/mahesh/frappe-helpdesk/flaskBlog/.git/refs/remotes/origin/main'
+2024-12-31 16:30:01.870 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-12-31 16:30:01.876 [info] > git status -z -uall [4ms]
+2024-12-31 16:30:01.877 [info] > git rev-parse --show-toplevel [8ms]
+2024-12-31 16:30:01.880 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-31 16:30:01.881 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-12-31 16:30:16.622 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-31 16:30:18.246 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-31 16:30:22.921 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-31 16:30:24.615 [info] > git show --textconv :Dockerfile [4ms]
+2024-12-31 16:30:24.616 [info] > git ls-files --stage -- /home/mahesh/frappe-helpdesk/flaskBlog/Dockerfile [3ms]
+2024-12-31 16:30:24.622 [info] > git cat-file -s 5441a15b15910054ad9b94ef3c5d5fa2a1fa85ee [1ms]
+2024-12-31 16:30:25.280 [info] > git blame --root --incremental e4725315899523085f2e81b4eba9c827a8159e5e -- /home/mahesh/frappe-helpdesk/flaskBlog/Dockerfile [19ms]
