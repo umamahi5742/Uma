@@ -1,0 +1,43 @@
+2024-12-25 23:32:42.515 [info] 
+
+
+
+
+2024-12-25 23:32:42.515 [info] Extension host agent started.
+2024-12-25 23:32:42.542 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mahesh/.vscode-server/extensions
+2024-12-25 23:32:42.543 [info] [127.0.0.1][65dde49f][ManagementConnection] New connection established.
+2024-12-25 23:32:42.597 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mahesh/.vscode-server/extensions
+2024-12-25 23:32:42.961 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] New connection established.
+2024-12-25 23:32:44.032 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] <14873> Launched Extension Host Process.
+2024-12-25 23:37:11.924 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-25 23:37:12.326 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 10:33:23.172 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 10:33:24.137 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 10:50:38.565 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 10:50:39.543 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 11:11:54.515 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 11:11:54.780 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 11:11:56.811 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 11:11:57.226 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 11:21:28.567 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 11:21:28.922 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 11:39:09.196 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-12-26 11:39:09.241 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-12-26 11:39:55.820 [info] [127.0.0.1][65dde49f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-12-26 11:39:55.821 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 11:39:55.951 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 11:54:28.744 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 11:54:28.745 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 12:39:06.071 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 12:39:06.089 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 13:00:18.057 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 13:01:37.015 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 13:24:18.485 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 13:24:18.594 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 13:29:08.774 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 13:29:08.775 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 14:18:05.861 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 14:18:06.082 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
+2024-12-26 14:38:53.014 [info] [127.0.0.1][65dde49f][ManagementConnection] The client has reconnected.
+2024-12-26 14:38:53.206 [info] [127.0.0.1][3584aaeb][ExtensionHostConnection] The client has reconnected.
