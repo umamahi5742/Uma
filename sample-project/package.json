@@ -1,7 +1,7 @@
 {
   "name": "deploy-example",
   "version": "1.0.0",
-  "description": "Simple web application for CI/CD deployment",
+  "description": "Simple web application for CI/CD deployment and going to learn it ",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
