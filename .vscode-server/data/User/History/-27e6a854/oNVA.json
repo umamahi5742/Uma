@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Dracula Theme Soft",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "git.openRepositoryInParentFolders": "always"
+}

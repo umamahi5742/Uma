@@ -15,3 +15,5 @@
 2024-12-31 16:49:43.813 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
 2025-01-03 03:54:19.690 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
 2025-01-03 04:17:16.748 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2025-01-03 16:37:07.895 [error] Error: read ECONNRESET
+	at TCP.onStreamRead (node:internal/stream_base_commons:218:20)

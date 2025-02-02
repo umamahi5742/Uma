@@ -1,0 +1,12 @@
+2025-02-02 19:25:12.154 [info] 
+
+
+
+
+2025-02-02 19:25:12.176 [info] Extension host agent started.
+2025-02-02 19:25:12.338 [info] [127.0.0.1][f9cad7ae][ManagementConnection] New connection established.
+2025-02-02 19:25:12.663 [info] [127.0.0.1][526eb16f][ExtensionHostConnection] New connection established.
+2025-02-02 19:25:13.233 [info] [127.0.0.1][526eb16f][ExtensionHostConnection] <4639> Launched Extension Host Process.
+2025-02-02 19:25:14.912 [error] [network] #1: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2025-02-02 19:30:39.763 [info] [127.0.0.1][526eb16f][ExtensionHostConnection] The client has reconnected.
+2025-02-02 19:30:40.280 [info] [127.0.0.1][f9cad7ae][ManagementConnection] The client has reconnected.
